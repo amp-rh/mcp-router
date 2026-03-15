@@ -1,11 +1,11 @@
 # MCP Router
 
+**A production MCP router that aggregates multiple backend servers into a single endpoint with intelligent routing, health checking, and automatic failover.** Route requests across backends using path-based, capability-based, or fallback strategies — with circuit breakers and namespace prefixing to keep everything isolated.
+
 [![Install](https://img.shields.io/badge/pip-install%20from%20github-blue)](https://github.com/amp-rh/mcp)
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-50%20passing-brightgreen.svg)](#testing)
 [![FastMCP](https://img.shields.io/badge/FastMCP-compatible-purple)](https://gofastmcp.com)
-
-A production-ready MCP router that aggregates and routes requests to multiple MCP backend servers. Built with FastMCP and featuring advanced routing strategies, health checking, and circuit breaker patterns.
 
 **Quick Install:** `pip install git+https://github.com/amp-rh/mcp.git`
 
@@ -557,4 +557,3 @@ See [.agents/docs/workflows/contributing.md](.agents/docs/workflows/contributing
 ## License
 
 Apache License 2.0
-
